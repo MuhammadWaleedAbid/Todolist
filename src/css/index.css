@@ -1,14 +1,27 @@
 /* Importing all CSS files */
-@import url('./Header.css');
+@import url('./home/Sidebar.css');
+@import url('./home/Menu.css');
+@import url('./Work.css');
+@import url('./home/Front.css');
+@import url('./Sticky.css');
+@import url('./Upcome.css');
+@import url('./Calendar.css');
+@import url('./Weather.css');
+@import url('./popup/Popup.css');
+@import url('./Contact.css');
 
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* Defaults */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
-/* Primary Variables */
-:root {
-  --primary: 'green';
+body {
+  background-color: #fafafa;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.Home_page {
+  width: 100%;
+  display: flex;
 }

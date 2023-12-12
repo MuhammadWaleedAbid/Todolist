@@ -1,11 +1,10 @@
 // Init
 import axios from 'axios';
 import { toast } from 'react-toastify';
-import { baseUrl } from '../config';
 
 const api = async (method, uri, body) => {
   // API Call
-  const url = baseUrl + uri;
+  const url = uri;
 
   const token = localStorage.getItem('token');
   if (token) {

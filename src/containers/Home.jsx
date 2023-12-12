@@ -2,13 +2,15 @@
 import React from 'react';
 
 // Importing Components
-import Header from '../components/Header';
+
+// import Sidebar from '../components/home/Sidebar';
+import Menu from '../components/home/Menu';
 
 // Home Component
 export default function Home() {
   return (
-    <div>
-      <Header />
+    <div className="Home_page">
+      <Menu />
     </div>
   );
 }

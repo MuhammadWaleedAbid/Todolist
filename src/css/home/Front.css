@@ -1,0 +1,173 @@
+.front {
+  padding: 2%;
+  width: 100%;
+}
+.front_inner {
+  width: 100%;
+  height: 93.8vh;
+  display: flex;
+  flex-direction: column;
+  gap: 4%;
+}
+.Front_inner_top {
+  display: flex;
+  width: 100%;
+  gap: 3%;
+  align-items: center;
+}
+.Front_inner_top {
+  color: #212529;
+  font-size: 1.5rem;
+}
+.new_task {
+  width: 100%;
+  height: 45px;
+  border: 1px solid #f5f5f5;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.newtask_detail {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 3%;
+  padding-left: 2%;
+}
+.newtask_detail i {
+  color: #8a8a8a;
+  font-size: larger;
+  cursor: pointer;
+}
+.newtask_detail p {
+  color: #8a8a8a;
+  font-size: large;
+}
+span.box_line {
+  width: 100%;
+  border-bottom: 1px solid #f4f4f4;
+}
+.today_box {
+  width: 40px;
+  height: 40px;
+  background-color: #fafafa;
+  border: 2px solid #f4f4f4;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.today_box span {
+  color: #212529;
+  font-size: 1.4rem;
+}
+.check_box_part {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 4%;
+  height: 50%;
+  /* gap: 4%; */
+}
+.checkbox {
+  color: #8a8a8a;
+}
+.check_box1 {
+  display: flex;
+  flex-direction: column;
+  width: 96%;
+  padding-left: 2%;
+}
+.check_box1_detail {
+  display: flex;
+}
+
+.check_box6_detail {
+  display: flex;
+  width: 100%;
+  margin-top: 2%;
+}
+.check_box6_first {
+  display: flex;
+  width: 50%;
+  padding-left: 4%;
+  overflow: hidden;
+  word-break: break-all;
+}
+.Check_box_icon {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.Check_box_icon i {
+  cursor: pointer;
+}
+.check_box1 p {
+  color: #a1a1a1;
+}
+.check_box1 i {
+  color: #a1a1a1;
+}
+.check_box1_first {
+  display: flex;
+  width: 100%;
+  gap: 3%;
+}
+
+.check_box3_details {
+  display: flex;
+  gap: 2%;
+  width: 96%;
+  padding-left: 4.5%;
+  padding-top: 2%;
+}
+
+.check3_date,
+.subtask,
+.persnl {
+  display: flex;
+  width: 20%;
+
+  gap: 8%;
+  align-items: center;
+}
+.check3_date i {
+  color: #868686;
+}
+.subtaskbox {
+  width: 22px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  background-color: #ebebeb;
+}
+.subtaskbox span {
+  color: #9b9b9b;
+}
+.persnlbox {
+  width: 15px;
+  height: 15px;
+  background-color: #ff6b6b;
+  border-radius: 4px;
+}
+.list1 {
+  display: flex;
+  width: 20%;
+  gap: 8%;
+  align-items: center;
+}
+.list1_box {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+  background-color: #ffd43b;
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .Front_inner_top {
+    color: #212529;
+    font-size: 1.3rem;
+  }
+}

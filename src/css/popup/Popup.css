@@ -1,0 +1,265 @@
+.today_popup {
+  padding: 1.5%;
+  width: 60%;
+}
+.today_popup_box {
+  width: 100%;
+  height: 92vh;
+  background-color: #f4f4f4;
+  border-radius: 15px;
+}
+.today_popup_top {
+  display: flex;
+  width: 92%;
+  padding-left: 4%;
+  padding-top: 3%;
+  align-items: center;
+}
+.popup_top_heading {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+.popup_top_heading h2 {
+  color: #444444;
+}
+.popup_top_icon {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.popup_top_icon i {
+  font-size: 1.5rem;
+  color: #7e7e7e;
+}
+.today_popup_center {
+  display: flex;
+  padding-top: 4%;
+  flex-direction: column;
+  height: 30%;
+  gap: 7%;
+}
+.today_popup_center input,
+.today_popup_center textarea {
+  width: 90%;
+  margin-left: 5%;
+  border: 2px solid #eeeeee;
+  background-color: #f4f4f4;
+}
+
+.today_popup_center input {
+  height: 40px;
+}
+.today_popup_center input::placeholder {
+  width: 100%;
+  padding-left: 4%;
+  color: #808080;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.today_popup_center textarea::placeholder {
+  padding-left: 4%;
+  padding-top: 2%;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.popup1_center {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 25%;
+  gap: 10%;
+  padding-top: 4%;
+}
+.popup1_center_list,
+.popup1_center_date,
+.popup1_center_button {
+  display: flex;
+  width: 90%;
+  padding-left: 5%;
+  align-items: center;
+}
+.name1,
+.name2,
+.name3 {
+  width: 40%;
+}
+.name1 h5,
+.name2 h5,
+.name3 h5 {
+  color: #858585;
+}
+.name1_detail,
+.name2_detail {
+  width: 50%;
+}
+.name1_detail select,
+.name2_detail select {
+  width: 70%;
+  height: 35px;
+  background-color: #f4f4f4;
+  border: 2px solid #efefef;
+  border-radius: 7px;
+}
+.name3_detail {
+  width: 50%;
+}
+.name3buttons {
+  display: flex;
+
+  gap: 4%;
+}
+.name3_btn1 {
+  width: 30%;
+  height: 25px;
+}
+.name3_btn2 {
+  width: 50%;
+  height: 25px;
+}
+.name3_btn1,
+.name3_btn2 {
+  color: #555858;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.name3_btn1 {
+  background-color: #d1eaed;
+  border-color: #d1eaed;
+  border: none;
+}
+.name3_btn2 {
+  background-color: #ebebeb;
+  border-color: #ebebeb;
+  border: none;
+}
+.personal_name,
+.date_add {
+  color: #7e7e7e;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.today_popup_end {
+  width: 90%;
+  padding-left: 5%;
+}
+
+.today_popup_end h2 {
+  color: #444444;
+}
+.subtask1 {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.sub1,
+.sub2 {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  gap: 10%;
+  padding-top: 4%;
+  color: #9b9b9b;
+}
+.sub1 i,
+.sub2 i {
+  color: #7c7c7c;
+}
+.popup_end_button {
+  display: flex;
+  width: 90%;
+  padding-left: 5%;
+}
+
+.popup_end_buttons {
+  width: 100%;
+  display: flex;
+  padding-top: 20%;
+  justify-content: space-evenly;
+}
+.pop1up,
+.pop2up {
+  width: 45%;
+}
+
+.pop1up button,
+.pop2up button {
+  width: 100%;
+  height: 40px;
+}
+.pop2up button {
+  background-color: #ffd43b;
+  border: none;
+  font-family: 'Lexend Deca', sans-serif;
+  border-radius: 5px;
+}
+.pop1up button {
+  background-color: #f4f4f4;
+  font-family: 'Lexend Deca', sans-serif;
+  border-radius: 5px;
+  border: 2px solid #e2e2e2;
+}
+.color_pick {
+  width: 15px;
+  height: 15px;
+}
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  .today_popup {
+    padding: 1.5%;
+    width: 80%;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  .today_popup {
+    padding: 1.5%;
+    width: 100%;
+  }
+  .popup1_center_button {
+    width: 100%;
+  }
+  .name3_btn1 {
+    width: 30%;
+    height: 25px;
+    font-size: 0.7rem;
+  }
+  .name3_btn2 {
+    width: 70%;
+    height: 25px;
+    font-size: 0.7rem;
+  }
+  .popup_end_buttons {
+    width: 100%;
+  }
+  .pop1up,
+  .pop2up {
+    width: 48%;
+  }
+  .pop1up button,
+  .pop2up button {
+    font-size: 0.7rem;
+  }
+  .sub1,
+  .sub2 {
+    display: flex;
+
+    width: 100%;
+  }
+  .sub1 i,
+  .sub2 i {
+    font-size: 0.8rem;
+  }
+  .sub1 p,
+  .sub2 p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .today_popup {
+    padding: 0%;
+    width: 100%;
+    z-index: 1000;
+    position: absolute;
+    height: 100vh;
+  }
+  .today_popup_box {
+    height: 100vh;
+  }
+}
